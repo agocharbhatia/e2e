@@ -115,7 +115,8 @@ reaches the model. See
 
 Add `--changed-since <ref>` to explore what the branch changed. The planner
 reads the commit messages and the committed diff since the merge base with
-the ref. It spends its steps on the screens that the change can affect.
+the ref. For a committed submodule update it reads the old and new commit
+IDs. It spends its steps on the screens that the change can affect.
 
 <CodeGroup>
 ```bash npm
